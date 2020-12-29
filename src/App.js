@@ -1,24 +1,28 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
-import FavoritesList from "./pages/FavoritesList";
-import './App.css';
+import Resume from "./pages/CV";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
     <Router>
-      <div>
-        <Nav />
+      <div classname="container">
+        <Navbar />
         <Switch>
+          
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/favorites" component={FavoritesList} />
-          <Route exact path="/posts/:id" component={Detail} />
-          <Route component={NoMatch} />
+          <Route exact path="/cv" component={Resume} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+          
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
