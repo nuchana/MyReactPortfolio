@@ -20,14 +20,15 @@ class Home extends Component {
                             <div className="col-md-6 col-lg-4 item">
                                 <div className="box">
                                     <div id="profile">
-                                        <img className="rounded-circle" alt="headshot" src="/public/NK photo.png"></img>
+                                        
+                                        <a href="public/profile.png"><img className = "rounded-circle" alt= "headshot" src={process.env.PUBLIC_URL + '/profile.png'}/></a>
 
                                     </div>
                                     <div id="text1">
                                         <h3 className="name">Nuchana Kittitrakul</h3>
                                         <p className="title">A full-stack developer</p>
                                         <p className="description">7-year background in global brand development and MBA degree is eager
-                                        to make a career shift in digital and coding industry.Highly motivated self
+                                        to make a career shift in digital and coding industry. Highly motivated self
                                         learner with a passion for learning and keeping informed of the latest in technology.</p>
                                         <p> Looking for challenging roles in e-commerce and consumer marketing sectors to enhance my skills and
                                         provide my services to add value to the products of the organization.  </p>
