@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+    min-height: 100%;
+    margin: auto;
+    width: auto;
+    position: relative;
+    background-color: seashell;
+
+  }
+
+  
