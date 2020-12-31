@@ -10,7 +10,7 @@ class Home extends Component {
                     <div className="container col-lg-12">
                         <div className="intro">
                             <h2 className="text-center">About me</h2>
-                            <p className="text-center">Dedicated global marketer turning to a profession web developer with over 7 years of experience in a fast-paced company.
+                            <p className="text-center">Dedicated global marketer turning to a professional web developer with over 7 years of experience in a fast-paced company.
                             Look for a career shift with eagerness to learn and offer superb analytical and computer skills to help your company grow its client base.</p>
                         </div>
 
@@ -39,10 +39,7 @@ class Home extends Component {
                                     <br></br>
 
                                     <div className="contactMethods row">
-                                        <div className="contact col-3 text-center">
-                                            <a href="mailto:nuchana.johnson@gmail.com" target="blank"><span className="contactIcon text-center"><i className="fas fa-envelope" /></span>
-                                                <span className="contactText text-center">nuchana.johnson@gmail.com</span></a>
-                                        </div>
+                                        
                                         <div className="contact col-3 text-center">
                                             <a href="https://github.com/nuchana" target="blank"><span className="contactIcon text-center"><i className="fab fa-github" /></span>
                                                 <span className="contactText text-center">Nuchana</span></a>
@@ -51,6 +48,10 @@ class Home extends Component {
                                         <div className="contact col-3 text-center">
                                             <a href="https://www.linkedin.com/in/nuchana" target="blank"><span className="contactIcon text-center"><i className="fab fa-linkedin" /></span>
                                                 <span className="contactText text-center">Nuchana</span></a>
+                                        </div>
+                                        <div className="contact col-3 text-center">
+                                            <a href="mailto:nuchana.johnson@gmail.com" target="blank"><span className="contactIcon text-center"><i className="fas fa-envelope" /></span>
+                                                <span className="contactText text-center">nuchana.johnson@gmail.com</span></a>
                                         </div>
                                         
                                     </div>

@@ -14,10 +14,8 @@ class Navbar extends Component {
                         <NavLink exact to="/cv" activeClassName="active">Resume</NavLink>
                         &nbsp;/&nbsp;
                         <NavLink exact to="/portfolio" activeClassName="active">Portfolio</NavLink>
-                        &nbsp;/&nbsp;
-                        <NavLink exact to="/contact" activeClassName="active">Contact</NavLink>
-                        &nbsp;/&nbsp;
-
+                        
+                        
                     </div>
 
                 </ol>
