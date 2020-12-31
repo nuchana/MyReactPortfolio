@@ -9,9 +9,9 @@ class Resume extends Component {
       <div>
         <h1 className="text-center"><strong>Curriculum Vitae</strong></h1>
         <div id="cvDownload"> 
-        <a class="nav-link" href="public/NKresume.pdf" download src="/public/NKresume.pdf">Download Resume</a>
+        <a class="nav-link" href="public/resume.png" download src="/public/resume.png">Download Resume</a>
         </div>
-        <a href="public/NKresume.pdf"><img id="cvImg" alt= "CV" src={process.env.PUBLIC_URL + '/NKresume.pdf'}/></a>
+        <a href="public/resume.png"><img id="cvImg" alt= "CV" src={process.env.PUBLIC_URL + '/resume.png'}/></a>
       </div>
       
     );
