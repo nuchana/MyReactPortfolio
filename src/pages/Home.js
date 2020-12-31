@@ -20,8 +20,8 @@ class Home extends Component {
                             <div className="col-md-6 col-lg-4 item">
                                 <div className="box">
                                     <div id="profile">
-                                        
-                                        <a href="public/profile.png"><img className = "rounded-circle" alt= "headshot" src={process.env.PUBLIC_URL + '/profile.png'}/></a>
+
+                                        <a href="public/profile.png"><img className="rounded-circle" alt="headshot" src={process.env.PUBLIC_URL + '/profile.png'} /></a>
 
                                     </div>
                                     <div id="text1">
@@ -32,10 +32,30 @@ class Home extends Component {
                                         learner with a passion for learning and keeping informed of the latest in technology.</p>
                                         <p> Looking for challenging roles in e-commerce and consumer marketing sectors to enhance my skills and
                                         provide my services to add value to the products of the organization.  </p>
-                                        
+
+
+                                    </div>
+
+                                    <br></br>
+
+                                    <div className="contactMethods row">
+                                        <div className="contact col-3 text-center">
+                                            <a href="mailto:nuchana.johnson@gmail.com" target="blank"><span className="contactIcon text-center"><i className="fas fa-envelope" /></span>
+                                                <span className="contactText text-center">nuchana.johnson@gmail.com</span></a>
+                                        </div>
+                                        <div className="contact col-3 text-center">
+                                            <a href="https://github.com/nuchana" target="blank"><span className="contactIcon text-center"><i className="fab fa-github" /></span>
+                                                <span className="contactText text-center">Nuchana</span></a>
+                                                
+                                        </div>
+                                        <div className="contact col-3 text-center">
+                                            <a href="https://www.linkedin.com/in/nuchana" target="blank"><span className="contactIcon text-center"><i className="fab fa-linkedin" /></span>
+                                                <span className="contactText text-center">Nuchana</span></a>
+                                        </div>
                                         
                                     </div>
                                 </div>
+
                             </div>
 
                             <div className="col-md-6 col-lg-4 item"></div>
@@ -44,6 +64,8 @@ class Home extends Component {
 
                     </div>
                 </div>
+
+
             </div>
 
         )
