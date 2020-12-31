@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <ol className="breadcrumb" style={{ display: "inline-block", width: "100%" }}>
+                <ol className="breadcrumb" style={{ display: "inline-block", width: "100%", background: "lightblue" }}>
                     <a href="/"><b className="name">Nuchana Kittitrakul</b></a>
                     <div className="float-right">
                         <NavLink exact to="/" activeClassName="active">Home</NavLink>
