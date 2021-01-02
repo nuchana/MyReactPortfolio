@@ -13,7 +13,7 @@ class Resume extends Component {
         <a class="nav-link" href="public/resume.png" download src="/public/resume.png">Download Resume</a>
         
         </div>
-        <a href="public/resume.png"><img id="cvImg" alt= "CV" src={process.env.PUBLIC_URL + '/resume.png'}/></a>
+        <a href="public/resume.png"><img id="cvImg" alt= "CV" src={process.env.PUBLIC_URL + '/resume.png'}></img></a>
       </div>
       
     );
