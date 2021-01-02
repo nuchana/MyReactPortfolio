@@ -15,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Nuchana-react-portfolio" component={Home} />
+          <Route exact path="/Nuchana-react-portfolio/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/cv" component={Resume} />
           <Route exact path="/portfolio" component={Portfolio} />
