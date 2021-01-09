@@ -49,7 +49,24 @@ class Portfolio extends Component {
 
                             </figure>
 
+                        
+
                         </div>
+                        <br></br>
+
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                           
+                            <figure class="col-md-4">
+                                <a href="https://hidden-plateau-66369.herokuapp.com/"><img src={process.env.PUBLIC_URL + '/googlebooksearch.PNG'} class="img-thumbnail"
+                                    alt="Google Book Search React App" style={{ width: "370px", height: "200px" }}></img></a>
+                                <figcaption class="figure-caption">Click image to Google Book Search React App.</figcaption>
+
+                            </figure>
+
+                        </div>
+
+
 
                     </div>
 
