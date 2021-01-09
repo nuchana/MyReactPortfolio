@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Nuchana-react-portfolio/static/css/main.0200c4dd.chunk.css",
-    "main.js": "/Nuchana-react-portfolio/static/js/main.5d75bd64.chunk.js",
-    "main.js.map": "/Nuchana-react-portfolio/static/js/main.5d75bd64.chunk.js.map",
+    "main.js": "/Nuchana-react-portfolio/static/js/main.adc8819d.chunk.js",
+    "main.js.map": "/Nuchana-react-portfolio/static/js/main.adc8819d.chunk.js.map",
     "runtime-main.js": "/Nuchana-react-portfolio/static/js/runtime-main.a96c988a.js",
     "runtime-main.js.map": "/Nuchana-react-portfolio/static/js/runtime-main.a96c988a.js.map",
     "static/css/2.c1b1f88c.chunk.css": "/Nuchana-react-portfolio/static/css/2.c1b1f88c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.c1b1f88c.chunk.css",
     "static/js/2.6cd0653f.chunk.js",
     "static/css/main.0200c4dd.chunk.css",
-    "static/js/main.5d75bd64.chunk.js"
+    "static/js/main.adc8819d.chunk.js"
   ]
 }
